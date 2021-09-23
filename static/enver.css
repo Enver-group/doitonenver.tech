@@ -1,0 +1,14 @@
+a.active{
+	/* background-color: chartreuse !important; */
+	font-weight: bold;
+}
+
+.nav-item > a:hover {
+	text-decoration:underline;
+}
+
+@media (max-width: 990px) {
+	.hide-small {
+		display: none !important;
+	}
+}
